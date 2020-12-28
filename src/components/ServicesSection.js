@@ -8,11 +8,11 @@ import home2 from '../img/home2.png';
 
 const ServicesSection = () => {
   return(
-    <div  className="services">
+    <section  className="services">
       <div className="description">
         <h2>High <span>quality</span> services</h2>
         <div className="cards-wrapper">
-          
+
           <div className="card">
             <div className="icon">
               <img src={clock} alt="Clock"/>
@@ -48,7 +48,7 @@ const ServicesSection = () => {
         </div>
       </div>
       <img src={home2} alt="Camera"/>
-    </div>
+    </section>
   );
 }
 
